@@ -1,0 +1,7 @@
+tunnel: GANTI_DENGAN_TUNNEL_ID
+credentials-file: /home/pi/.cloudflared/GANTI_DENGAN_TUNNEL_ID.json
+
+ingress:
+  - hostname: finbot.domainanda.com
+    service: http://127.0.0.1:8080
+  - service: http_status:404
